@@ -1,16 +1,26 @@
-#divWeatherMain {
-    display: block;
-    border-radius: 10px;
-    width: 250px;
-    height: 320px;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(8,7,42,1));
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+#search-div {
+    float: left;
+    text-align: center;
+    padding-right: 15px;
 }
 
-.weatherWidgetRow {
-    display: block;
-    margin: 0 auto;
-    width: fit-content;
+#location {
+    float: left;
+    text-align: center;
+    padding-right: 15px;
+    font-size: 35px;
+}
+
+#temp {
+    float: left;
+    text-align: center;
+    padding-right: 15px;
+    font-size: 23px;
+}
+
+#feel-humidity {
+    float: left;
+    text-align: center;
+    font-size: 23px;
 }
