@@ -1,0 +1,10 @@
+<div id="divWeatherMain">
+    <input class="form-control" type="text" #userInput placeholder="Enter zipcode">
+    <button class="input-group-text-button" (click)="getZip(userInput.value)">Search</button>
+    <div>{{WeatherData.data}}</div>
+    <div class="weatherWidgetRow" style="font-size: 30px;margin-top:5px">{{WeatherData.temp_celcius}}°</div>
+    <div class="weatherWidgetRow">min: {{WeatherData.temp_min}}° / max: {{WeatherData.temp_max}}°</div>
+    <div class="weatherWidgetRow">Feels Like: {{WeatherData.temp_feels_like}}°</div>
+    <div class="weatherWidgetRow" style="font-size:22px;margin-top:10px;">{{WeatherData.name}}</div>
+    <div class="weatherWidgetRow" style="font-size:20px;">Humidity: {{WeatherData.main.humidity}}%</div>
+</div>
